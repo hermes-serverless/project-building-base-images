@@ -6,4 +6,4 @@ WORKDIR /function
 
 COPY . .
 
-RUN make
+RUN make clean && make
